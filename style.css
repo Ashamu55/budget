@@ -49,9 +49,10 @@ body{
    }
 @media screen and (max-width: 768px){
     body{
-        background-image: url(image/WhatsApp\ Image\ 2023-10-09\ at\ 22.36.19.jpg);
+        background-image: url(image/pexels-rodion-kutsaiev-8566875.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        height: 100vh;
     }
 
     input{
