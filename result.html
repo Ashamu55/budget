@@ -27,12 +27,12 @@
   }
 
   h1 {
-    color: white;
+    color: black !important;
   }
 
   @media screen and (max-width: 768px) {
     body {
-      background-image: url(image/WhatsApp\ Image\ 2023-10-09\ at\ 22.36.19.jpg);
+      background-image: url(image/pexels-rodion-kutsaiev-8566875.jpg);
       background-repeat: no-repeat;
       background-size: 1000vh;
     }
@@ -48,7 +48,7 @@
 
     h1 {
       color: white;
-      text-shadow: 10px -1px 10px black;
+      text-shadow: 10px -1px 10px rgb(240, 236, 236);
     }
 
     a {
@@ -83,13 +83,11 @@
         totalSpent += getCost;
         disp.innerHTML +=
           `<div class="card border-2 shadow" style = "width: 18rem;" >
-                          <img src="image/rice-sack-production-company-600x450.jpg" 
-                          class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Name: ${get.Mypro}</h5>
+                                <h5 class="card-title" style="font-weight: bold; font-size: 30px;">Name: ${get.Mypro}</h5>
                                 <h5>Quantity: ${get.Myquant}</h5>
                                 <h5>price: ${get.Mypri}</h5>
-                                <h5>total = ${getCost}</h5>
+                                <h5 style="font-style: italic;">total = ${getCost}</h5>
                                 <button onclick="del(${i})" class="bg-danger text-light 
                                     p-2 border-0 rounded-2">delete</button>
                                     <button type="button" class="btn 
